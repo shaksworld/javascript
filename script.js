@@ -14,6 +14,6 @@ else if (operator == '/') {
     result = firstNumber / secondNumber;
 }
 else {
-    result = "Please Enter a Valid Result"
+    result = "Please Enter a Valid Input"
 }
 window.alert("Your result is " + result)

@@ -10,7 +10,10 @@ else if (operator == '-') {
 else if (operator == '*') {
     result = firstNumber * secondNumber;
 }
+else if (operator == '/') {
+    result = firstNumber / secondNumber;
+}
 else {
-    result = firstNumber / secondNumber
+    result = "Please Enter a Valid Result"
 }
 window.alert("Your result is " + result)
